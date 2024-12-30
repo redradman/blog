@@ -16,3 +16,19 @@ params:
       url: 'https://github.com/redradman'
     - name: linkedin
       url: 'https://www.linkedin.com/in/radmanr/'
+
+
+menu:
+  main:
+    - name: Archive
+      url: archives/
+      weight: 10
+    - name: Search
+      url: search/
+      weight: 20
+    - name: Tags
+      url: tags/
+      weight: 30
+    - name: Github
+      url: https://github.com/redradman
+      weight: 40
