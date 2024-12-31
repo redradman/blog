@@ -1,7 +1,7 @@
 ---
 title: "My first blog post"
 date: 1970-01-01
-draft: true
+draft: true ## Keeping this as a sample post (do not publish)
 ShowToc: true
 tags: ["sample"]
 ---
