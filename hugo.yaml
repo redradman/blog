@@ -4,7 +4,9 @@ title: Radman's Blog
 theme: PaperMod
 
 params:
-  defaultTheme: dark
+  defaultTheme: auto # permit autoamtic theme selection via browser settings
+  ShowReadingTime: true
+  # env: production # Enable Social-Metadata and SEO once uncommented
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: >-
@@ -20,6 +22,9 @@ params:
 
 menu:
   main:
+    - name: Posts
+      url : /
+      weight: 5
     - name: Archive
       url: archives/
       weight: 10
@@ -32,3 +37,10 @@ menu:
     - name: Github
       url: https://github.com/redradman
       weight: 40
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
