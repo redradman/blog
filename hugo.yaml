@@ -3,11 +3,13 @@ languageCode: en-us
 title: Radman's Blog
 theme: PaperMod
 
+googleAnalytics: G-ETFMEJMJSK
+
 params:
   defaultTheme: auto # permit autoamtic theme selection via browser settings
   ShowReadingTime: true
   math: true
-  # env: production # Enable Social-Metadata and SEO
+  env: production # Enable Metadata and SEO
   homeInfoParams:
     Title: "Hi there, I am Radman \U0001F44B"
     Content: >
