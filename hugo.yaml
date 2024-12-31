@@ -6,11 +6,14 @@ theme: PaperMod
 params:
   defaultTheme: auto # permit autoamtic theme selection via browser settings
   ShowReadingTime: true
-  # env: production # Enable Social-Metadata and SEO once uncommented
+  math: true
+  # env: production # Enable Social-Metadata and SEO
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: >-
-      Welcome to my blog ;)      
+    Title: "Hi there, I am Radman \U0001F44B"
+    Content: >
+      - I am currently a student in University of British Columbia (UBC). I am getting my Bachelor of Science with combined major of Computer Science and Biology.
+
+      - I am very passionate about reinforcement learning and diffusion models. I am also interest about the areas where AI and biology intersect. 
   socialIcons:
     - name: email
       url: 'mailto:rdmnr@protonmail.com'
