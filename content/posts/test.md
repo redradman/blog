@@ -11,4 +11,4 @@ $$
 \int_{0}^{\infty} x^2 dx
 $$
 
-this is an inline equation: $x^2$ and it is x squared.
+this is an inline equation: $x^2$ and it is x squared. This page should still not be visible.
